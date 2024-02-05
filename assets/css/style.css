@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.caja_principal {
+    width: 500px;
+    margin-top: 150px;
+}
+
+.caja_secundaria {
+    text-align: center;
+}
+
+.caja_form {
+    margin-left: 20px;
+}
+
+.caja_form label, input {
+    margin: 10px 0 10px 0;
+}
+
+.boton_acceder {
+    margin-top: 1rem;
+}
+
+.boton_acceder button {
+    background-color: #3a6317;
+    border: none;
+}
+
+.boton_acceder button:hover {
+    background-color: #4ea502;
+}
