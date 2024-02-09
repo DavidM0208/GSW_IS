@@ -10,33 +10,75 @@
 </head>
 <body>
 
-    <img src="./assets/img/hojas.jpg" alt="hojas_cayendo">
+    <div class="contaier-fluid main_container">
+        <div class="row firts_box">
+            <div class="col box_title" style="margin-right: 700px;">
+                <h3 class="title">GreenSoftWorld</h3>
+            </div>
+            <div class="col box_lenguaje_register_login">
+                <div class="dropdown">
+                    <button class="dropdown-toggle buttonRegister" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registrarse</button>
+                    <div class="dropdown-menu box_form_register" aria-labelledby="dropdownMenuButton">
+                        <form action="" class="form-control form_register">
+                            <div class="username">
+                                <label for="">Usuario: <input type="text" class="form-control"></label>
+                            </div>
+                            <div class="email">
+                                <label for="">Email: <input type="text" class="form-control"></label>
+                            </div>
+                            <div class="password">
+                                <label for="">Contraseña: <input type="password" class="form-control"></label>
+                            </div>
+                            <a href="" class="btn">Registrarse</a>
+                        </form>
+                    </div>
+                </div>
 
-    <div class="container-fluid caja_principal">
-        <div class="container caja_secundaria">
-            <div class="card" style="border: solid rgb(43, 43, 43) 1px;">
-                <div class="card-header" style="background-color: #3a6317; color: white;">
-                    CUENTA DE INGRESO
+                <div class="dropdown">
+                    <button class="dropdown-toggle buttonLogin" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Iniciar sesión</button>
+                    <div class="dropdown-menu box_form_login" aria-labelledby="dropdownMenuButton">
+                        <form action="" class="form-control form_login">
+                            <div class="username">
+                                <label for="username">Usuario: <input type="text" class="form-control"></label>
+                            </div>
+                            <div class="password">
+                                <label for="password">Contraseña: <input type="password" class="form-control"></label>
+                            </div>
+                            <a href="" class="btn">Iniciar</a>
+                        </form>
+                    </div>
                 </div>
-                <div class="card-body caja_form">
-                    <form action="" class="row g-3">
-                        <div class="row">
-                            <label for="">Usuario</label>
-                            <input type="text" readonly class="form-control" id="">
-                        </div>
-                        <div class="row">
-                            <label for="">Contraseña</label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="row boton_acceder">
-                            <button class="btn btn-primary mb3">Ingresar</button>
-                        </div>
-                    </form>
-                </div>
+    
             </div>
         </div>
     </div>
 
+    <img src="./assets/img/hojas.jpg" alt="hojas_cayendo">
+
+        <!-- <div class="container-fluid caja_principal">
+            <div class="container caja_secundaria">
+                <div class="card" style="border: solid rgb(43, 43, 43) 1px;">
+                    <div class="card-header" style="background-color: #3a6317; color: white;">
+                        CUENTA DE INGRESO
+                    </div>
+                    <div class="card-body caja_form">
+                        <form action="" class="row g-3">
+                            <div class="row">
+                                <label for="">Usuario</label>
+                                <input type="text" readonly class="form-control" id="">
+                            </div>
+                            <div class="row">
+                                <label for="">Contraseña</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="row boton_acceder">
+                                <button class="btn btn-primary mb3">Ingresar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
